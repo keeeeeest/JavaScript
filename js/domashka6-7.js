@@ -108,8 +108,7 @@ function generateTable(someData) {
     let tableArea = document.getElementById("users-block");
     let table = document.createElement("table");
     table.setAttribute("border", 1);
-    // let caption = table.createCaption();
-    // caption.innerText = someData;
+    
     for (let i = 0; i < someArr.length; i++) {
         let row = table.insertRow(i);
         for (let j = 0; j < someArr[i].length; j++) {
